@@ -1,5 +1,17 @@
 ## Date-fns running on Node
 
+### Installation
+
+1.) Clone repo: `git clone git@github.com:mattcarlotta/date-fns-node.git`
+
+2.) Install deps: `cd date-fns-node && yarn`
+
+3.) Run dev: `yarn dev`
+
+4.) See below to [query API](#query-the-api).
+
+### Scripts
+
 An example of using the [date-fns](https://www.npmjs.com/package/date-fns) dependency within a node environment running an Express server.
 
 | `yarn <command>` | Description                                            |
@@ -10,7 +22,7 @@ An example of using the [date-fns](https://www.npmjs.com/package/date-fns) depen
 | `start`          | Starts production server (must run `build` first).     |
 | `tsc`            | Type checks all `.ts` files within the root directory. |
 
-To query the API
+### Query the API
 
 Get current date:
 
