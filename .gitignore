@@ -1,10 +1,6 @@
 # Mac OS BS
 *.DS_Store
 
-#env
-*.env
-*.env.*
-
 #production
 build
 
