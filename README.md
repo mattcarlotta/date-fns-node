@@ -1,5 +1,7 @@
 ## Date-fns running on Node
 
+An example of using the [date-fns](https://www.npmjs.com/package/date-fns) dependency within a node environment running an Express server.
+
 ### Installation
 
 1.) Clone repo: `git clone git@github.com:mattcarlotta/date-fns-node.git`
@@ -11,8 +13,6 @@
 4.) See below to [query API](#query-the-api).
 
 ### Scripts
-
-An example of using the [date-fns](https://www.npmjs.com/package/date-fns) dependency within a node environment running an Express server.
 
 | `yarn <command>` | Description                                            |
 | ---------------- | ------------------------------------------------------ |
