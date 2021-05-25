@@ -1,6 +1,6 @@
 ## Date-fns running on Node
 
-An example of using the [date-fns](https://www.npmjs.com/package/date-fns) dependency within a node environment running an Express server.
+An example of using the [date-fns](https://www.npmjs.com/package/date-fns) dependency within a node environment running an Express API server.
 
 ### Installation
 
