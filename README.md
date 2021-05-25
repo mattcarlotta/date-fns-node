@@ -4,7 +4,7 @@ An example of using the [date-fns](https://www.npmjs.com/package/date-fns) depen
 
 ### Installation
 
-1.) Clone repo: `git clone --single-branch --ejs git@github.com:mattcarlotta/date-fns-node.git`
+1.) Clone repo: `git clone git@github.com:mattcarlotta/date-fns-node.git --branch ejs`
 
 2.) Install deps: `cd date-fns-node && yarn`
 
