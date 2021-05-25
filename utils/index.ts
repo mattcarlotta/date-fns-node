@@ -52,7 +52,11 @@ const formatWithTimezone = (
  * @param res - res object
  * @returns Response
  */
-const sendError = (err: Error, statusCode: number, res: Response): Response =>
-  res.status(statusCode).json({ err: err.toString() });
+const sendError = (
+  err: Error,
+  statusCode: number,
+  res: Response
+): Response<any, Record<string, any>> | void =>
+  res.status(statusCode).render("error", { error: err.toString() });
 
 export { formatWithTimezone, sendError };

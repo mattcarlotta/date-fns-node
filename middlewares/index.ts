@@ -15,7 +15,10 @@ const logging = inProduction
 /* APP MIDDLEWARE */
 //= ===========================================================//
 const middlewares = (app: Express): void => {
+  app.set("view engine", "ejs");
+
   app.set("json spaces", 2); // sets JSON spaces for clarity
+
   if (inProduction) app.set("trust proxy", 1);
 
   if (!inTesting) app.use(morgan(logging));

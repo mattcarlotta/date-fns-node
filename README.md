@@ -1,16 +1,16 @@
-## Date-fns running on Node
+## Date-fns running on Node (ejs)
 
-An example of using the [date-fns](https://www.npmjs.com/package/date-fns) dependency within a node environment running an Express server.
+An example of using the [date-fns](https://www.npmjs.com/package/date-fns) dependency within a node environment running an Express server (ejs).
 
 ### Installation
 
-1.) Clone repo: `git clone git@github.com:mattcarlotta/date-fns-node.git`
+1.) Clone repo: `git clone --single-branch --ejs git@github.com:mattcarlotta/date-fns-node.git`
 
 2.) Install deps: `cd date-fns-node && yarn`
 
 3.) Run dev: `yarn dev`
 
-4.) See below to [query API](#query-the-api).
+4.) See below to [view pages](#view-pages).
 
 ### Scripts
 
@@ -22,16 +22,22 @@ An example of using the [date-fns](https://www.npmjs.com/package/date-fns) depen
 | `start`          | Starts production server (must run `build` first).     |
 | `tsc`            | Type checks all `.ts` files within the root directory. |
 
-### Query the API
+### View pages
 
-Get current date:
+View home:
 
 ```dosini
-http://localhost:4000/api/date
+http://localhost:4000
 ```
 
-Get a formatted date:
+View current date:
 
 ```dosini
-http://localhost:4000/api/date/2019-02-10T02:30:31.834+00:00
+http://localhost:4000/date
+```
+
+View a formatted date:
+
+```dosini
+http://localhost:4000/date/2019-02-10T02:30:31.834+00:00
 ```

@@ -11,7 +11,8 @@ const { PORT } = process.env;
 
     middlewares(server);
 
-    server.use("/api", routes);
+    server.use("/favicon.ico", express.static("assets/favicon.ico"));
+    server.use("/", routes);
 
     server.listen(PORT, (err?: Error) => {
       if (err) throw err;

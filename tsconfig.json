@@ -26,6 +26,7 @@
       "~logger": ["logger/index"],
       "~middlewares": ["middlewares/index"],
       "~routes": ["routes/index"],
+      "~views": ["view/index"],
       "~utils": ["utils/index"]
     }
   },
